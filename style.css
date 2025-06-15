@@ -40,6 +40,7 @@ h2 {
 }
 .citation {
     display: flex;
+    align-items: center;
     
 }
 
