@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap);
 
+
 body {
     background-color:hsl(47, 88%, 63%);
     font-family: 'Figtree' ;
@@ -14,7 +15,8 @@ body {
     background-color:hsl(0, 0%, 100%) ;
     margin: auto;
     padding: 16px;
-    width: 370px;
+    width: 45%;
+    min-width: 370px;
     height: auto;
     border: 2px solid black;
     border-radius: 1rem;
