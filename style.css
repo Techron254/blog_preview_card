@@ -16,7 +16,7 @@ body {
     margin: auto;
     padding: 16px;
     width: 45%;
-    min-width: 370px;
+    /* min-width: 370px; */
     height: auto;
     border: 2px solid black;
     border-radius: 1rem;
@@ -24,6 +24,7 @@ body {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    flex-shrink: 1;
 }
 
 #cardImage {
@@ -37,8 +38,8 @@ h2 {
     border: 2px solid hsl(47, 88%, 63%);
     border-radius: 0.5rem;
     padding: 5px;
-    width: 40%;
-    text-align: center;
+    width: 100px;
+    
 }
 .citation {
     display: flex;
