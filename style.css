@@ -7,14 +7,14 @@ body {
     min-width: 375px ;
     max-width: 1440px;
     height: fit-content;
-    padding: 10%;
+    padding: auto;
 
 }
 .card {
     background-color:hsl(0, 0%, 100%) ;
     margin: auto;
     padding: 16px;
-    width: 400px;
+    width: 370px;
     height: auto;
     border: 2px solid black;
     border-radius: 1rem;
