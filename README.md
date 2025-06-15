@@ -1,0 +1,1 @@
+I did this project majorly by just looking at the image and coding something I deem as similar as possible to it. I did't take actual measurements in terms of px, rem, vh and stuff. Overally I think I did great but I might not be 100% accurate. Good thing is it works just like the original so,
