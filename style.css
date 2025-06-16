@@ -19,7 +19,7 @@ body {
 .card {
     background-color:hsl(0, 0%, 100%) ;
     padding: 20px;
-    margin: 3rem auto;
+    margin: 15rem auto;
     width: 300px;
     max-height: 500px;
     border: 1px solid black;
