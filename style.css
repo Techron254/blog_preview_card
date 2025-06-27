@@ -11,62 +11,65 @@ body {
     background-color:hsl(47, 88%, 63%);
     min-width: 375px ;
     max-width: 1440px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
 }
 .card {
     background-color:hsl(0, 0%, 100%) ;
     padding: 20px;
-    margin: 15rem auto;
-    width: 300px;
-    max-height: 520px;
+    margin: 3rem auto;
+    width: 500px;
+    height: auto;
     border: 1px solid black;
     border-radius: 1rem;
     box-shadow: 10px 10px ;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-evenly;
     gap: 15px;
 }
-
-#cardImage {
+.card-image img {
     width: 100%;
     height: 100%;
-    border-radius: 0.5rem;
-
+    margin-bottom: 1rem;
+    border-radius: 0.5rem
 }
 .bigbold {
     font-size: x-large;
     font-weight: 800;
+    padding-bottom: 0.5rem;
 }
 h3 {
     background-color: hsl(47, 88%, 63%);
     border: 2px solid hsl(47, 88%, 63%);
     border-radius: 7px;
     padding: 4px 20px;
+    margin-bottom: 0.5rem;
     width: fit-content;
-    
+
 }
 .citation {
     display: flex;
     align-items: center;
-    
+
 }
 .citation img {
-    height: 30px;
+    width: 50px;
+    height: 50px;
     margin-right: 10px;
+    margin-top: 0.5rem;
 }
 p.heavy {
     margin: 10px;
     font-weight: 800;
+    margin-bottom: 0.5rem;
 }
 #p950 {
     font-weight: 500;
+    margin-bottom: 0.5rem;
 }
 p.gray {
     color: hsl(0, 0%, 42%)
+}
+@media screen and (max-width:500px) {
+    .card{
+        width: 300px;
+        margin: 2rem auto;
+    }
 }
